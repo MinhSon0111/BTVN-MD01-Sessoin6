@@ -1,0 +1,44 @@
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.form-information{
+    width: 300px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.content1{
+    padding: 0 10px;
+}
+td{
+    padding: 5px;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+}
+.cols--text{
+    color: red; 
+}
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.content2--item{
+    padding: 5px;
+}
+.link{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 10%;
+    border-width: 2px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+
+div[class^="box"]{
+    width: 150px;
+    height: 150px;
+    padding: 1;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+.box-square{
+border-radius: 10%;
+background-color: red;
+}
+.box-circle{
+    border-radius: 50%;
+    background-color: blue; 
+}
